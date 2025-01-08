@@ -44,6 +44,9 @@ const App = () => {
                 <li className="nav-item">
                   <Link className="nav-link fs-5" to="/lab3">LAB_3</Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link fs-5" to="/lab4">LAB_4</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -63,6 +66,8 @@ const App = () => {
               </div>
             } />
             <Route path="/lab2" element={<Lab_2/>} />
+            <Route path="/lab4" element={<Lab_2/>} />
+
             <Route path="/lab3" element={
               <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '80vh' }}>
                 <div className="col-md-10">
